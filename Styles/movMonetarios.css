@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgba(255, 237, 191, 1);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.flexbox {
+    align-items:center;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    width: 480px;
+    background: rgba(46, 13, 35, 1);
+    color: rgba(255, 237, 191, 1);
+    letter-spacing: 4px;
+    font-size: 25px;
+  }
+
+#sectionBarraNavegacion{
+    display: flex;
+    margin: 10px;
+
+}

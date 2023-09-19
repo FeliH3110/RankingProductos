@@ -174,6 +174,58 @@
     }
 }
 
+.header {
+    align-items: center;
+    background: var(--oscuro);
+    border-bottom: var(--border);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    background: rgba(255, 255, 255, 0);
+    height: 2.56rem;
+    width: 18.375rem;
+}
+
+.header .navbar a {
+    background: rgba(255, 255, 255, 0);
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: var(--claro);
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+
+.btn:hover {
+    background-color: var(--naranja);
+}
+
+.dropdown-menu {
+    background: var(--oscuro);
+    font-family: 'Bebas neue';
+    font-size: 1.6rem;
+}
+
+.dropdown-menu li a {
+    color: var(--claro);
+}
+
+
 
 /* -------------------------- */
 
